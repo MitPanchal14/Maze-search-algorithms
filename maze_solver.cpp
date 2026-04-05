@@ -445,6 +445,7 @@ static void run_on_maze(const std::string& label,
 // Main
 // ---------------------------------------------------------------------------
 
+#ifndef MAZE_SOLVER_TESTING
 int main() {
     std::cout << "====================================================\n";
     std::cout << "  Intelligent Maze Solver: BFS vs DFS vs A*\n";
@@ -484,3 +485,4 @@ int main() {
 
     return 0;
 }
+#endif // MAZE_SOLVER_TESTING
